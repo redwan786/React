@@ -74,13 +74,26 @@
 
 
 
-.header{
+  .header {
     height: 34vw;
     margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: url('/header_img5.png') no-repeat;
     background-size: contain;
-    position: relative;
+    filter: blur(10px); /* Adjust the blur radius as needed */
+    z-index: -1;
 }
+
 .header-contents{
     position: absolute;
     display: flex;

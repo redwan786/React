@@ -1,5 +1,14 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
+import qb1 from './qb1.png'
+import fb1 from './fb1.png'
+import linkdin1 from './linkdin1.png'
+import inst1 from './inst1.png'
+import linkdin2 from './linkdin2.png'
+import r1 from './r1.jpg'
+import r10 from './r10.png'
+import quickbites8 from './quickbites8.png'
+import quickbites7 from './quickbites7.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
@@ -79,7 +88,17 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    quickbites7,
+    quickbites8,
+    qb1,
+    fb1,
+    linkdin1,
+    inst1,
+    linkdin2,
+    r1,
+    r10
+
 }
 
 export const menu_list = [
