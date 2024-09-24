@@ -1,3 +1,4 @@
+
 .place-order{
     display: flex;
     align-items: start;
@@ -34,3 +35,73 @@
     margin-top: 30px;
 }
 
+:root .emaill {
+    background-color: black;
+}
+:root .emaill{
+    color: white;
+}
+
+:root .streett {
+    background-color: black;
+}
+:root .streett{
+    color: white;
+}
+
+:root .phonee {
+    background-color: black;
+}
+:root .phonee{
+    color: white;
+}
+
+
+.lightcolors .emaill {
+    background-color: white;
+}
+.lightcolors .emaill{
+    color: black;
+}
+
+.lightcolors .streett {
+    background-color: white;
+}
+.lightcolors .streett{
+    color: black;
+}
+
+.lightcolors .phonee {
+    background-color: white;
+}
+.lightcolors .phonee{
+    color: black;
+}
+
+
+:root .multi-fields input {
+    background-color: black;
+    color: white; 
+}
+
+:root .multi-fields input::placeholder {
+    color: white;
+}
+
+
+.lightcolors .multi-fields input {
+    background-color: white;
+    color: black;
+}
+.lightcolors .multi-fields input::placeholder {
+    color: black;
+}
+
+
+:root .title {
+    color: white;
+}
+
+.lightcolors .title {
+    color: black;
+}
